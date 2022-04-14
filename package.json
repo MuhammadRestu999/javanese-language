@@ -4,7 +4,7 @@
   "description": "Javanese programming language",
   "main": "javanese-interpreter.js",
   "bin": {
-    "Javanese": "./javanese-interpreter.js"
+    "javanese": "./javanese-interpreter.js"
   },
   "directories": {
     "example": "example"
