@@ -1,0 +1,22 @@
+{
+  "name": "javanese-language",
+  "version": "1.0.0",
+  "description": "Javanese programming language",
+  "main": "javanese-interpreter.js",
+  "bin": {
+    "Javanese": "./javanese-interpreter.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadRestu999/javanese-language.git"
+  },
+  "author": "Muhammad Restu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuhammadRestu999/javanese-language/issues"
+  },
+  "homepage": "https://github.com/MuhammadRestu999/javanese-language#readme"
+}

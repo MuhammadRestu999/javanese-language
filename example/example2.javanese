@@ -1,0 +1,12 @@
+nyetel jumlah iku 10
+nuduhake teks "Jumlah  : " + jumlah
+
+ganti jumlah dadi 11
+nuduhake teks "Jumlah  : " + jumlah
+
+nyetel ikiUrip iku nggih
+nuduhake teks "iki urip: " + ikiUrip
+
+baleni(i saka 1 nganti 10)
+  nuduhake teks "i = " + i
+rampung

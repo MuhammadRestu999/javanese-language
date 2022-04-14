@@ -1,0 +1,51 @@
+nyetel age iku 13
+nyetel name iku "Restu"
+nuduhake teks "Name : " + name
+nuduhake teks "Age  : " + age
+
+nuduhake teks "\n"
+
+ganti age dadi 18
+ganti name dadi "Budi"
+nuduhake teks "Name : " + name
+nuduhake teks "Age  : " + age
+
+nuduhake teks "\n"
+
+nyetel yes iku nggih
+nyetel no iku ora
+nuduhake teks "Yes : " + yes
+nuduhake teks "No  : " + no
+
+nuduhake teks "\n"
+
+nyetel x iku yes
+yen(x padha karo nggih)
+  nuduhake teks "The content of variable x is true"
+yen ora
+  nuduhake teks "The content of variable x is false"
+rampung
+
+nuduhake teks "\n"
+
+nyetel y iku 10
+yen(y ndhuwur 10)
+  nuduhake teks "variable y above 10"
+utawa(y ngisor 10)
+  nuduhake teks "variable y under 10"
+yen ora
+  nuduhake teks "variable y is 10"
+rampung
+
+nuduhake teks "\n"
+
+baleni(i saka 1 nganti 10)
+  nuduhake teks "variable i is " + i
+rampung
+
+nuduhake teks "\n"
+
+fungsi hello(name, a, b)
+  nuduhake teks "Hello " + name
+rampung
+mbukak hello args "john"

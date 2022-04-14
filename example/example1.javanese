@@ -1,0 +1,12 @@
+nyetel yourAge iku 18
+nyetel myAge iku 13
+nuduhake teks "Your age " + yourAge
+yen(yourAge ndhuwur myAge)
+  nuduhake teks "You are older than me"
+utawa(yourAge padha karo myAge)
+  nuduhake teks "You\'re the same age as me"
+yen ora
+  nuduhake teks "I\'m older than you"
+rampung
+
+nuduhake teks "My age is " + myAge
