@@ -2,6 +2,17 @@
 
 Javanese Programming Language is a new programming language, easy to learn, using Jawa/Javanese language
 
+### Table Of Content
+1. [Instalation](#instalation)
+2. [Example](#example)
+3. [Syntax](#syntax)
+  1. [Variable](#variable)
+  2. [Condition](#condition)
+  3. [Looping](#loop)
+  4. [Function](#function)
+  5. [Try, Catch & Finally](#try)
+
+<a id="instalation"></a>
 ### Instalation & Run
 
 ```bash
@@ -10,9 +21,6 @@ npm install -g javanese-language
 // run
 javanese example/example1.javanese
 ```
-
-### Table Of Content
-[TOC]
 
 ### Example 
 
@@ -24,9 +32,9 @@ yen(umur ndhuwur utawa padha karo 18) nuduhake teks "Akses ditampa"
 yen ora nuduhake teks "Akses ditolak"
 ```
 
-## Command
+### Syntax
 
-Some commands are just like javascript, the difference is the keywords and the javanese-script language will be translated to javascript and run as javascript, this is just for fun :D
+Some synrax are just like javascript, the difference is the keywords and the javanese-script language will be translated to javascript and run as javascript, this is just for fun :D
 
 #### Variable
 
@@ -52,6 +60,7 @@ nyetel bar dadi ora
 // let bar = false
 ```
 
+<a id="log"></a>
 #### Print / Console.log
 ```
 nuduhake teks "Hello world"
@@ -134,7 +143,8 @@ function hello(name) {
 hello("john")
 ```
 
-#### Try Catch & Exception
+<a id="try"></a>
+#### Try, Catch & Finally
 ```
 coba
   nuduhake teks "Something wrong"
@@ -156,6 +166,6 @@ try {
 } 
 ```
 
-#### Disclaimer
+### Disclaimer
 
 This project is just for fun
